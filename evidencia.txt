@@ -1,0 +1,1 @@
+Pendiente: pegar salidas literales de pruebas, violación inducida, muestras y git diff/log. No son evidencias ejecutadas.

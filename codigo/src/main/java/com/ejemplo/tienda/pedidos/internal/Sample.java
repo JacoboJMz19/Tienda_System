@@ -1,0 +1,3 @@
+package com.ejemplo.tienda.pedidos.internal;
+import org.springframework.boot.ApplicationRunner; import org.springframework.boot.ApplicationArguments; import org.springframework.stereotype.Component; import org.springframework.context.annotation.Profile;
+@Component @Profile("hoja1") class Sample implements ApplicationRunner { private final OrderService service; Sample(OrderService service){this.service=service;} public void run(ApplicationArguments args){for(int i=0;i<4;i++){var o=service.create(new String[]{"C-001","C-002","C-001","C-003"}[i],1,new int[]{2,3,20,19}[i]);System.out.printf("PEDIDO %d %s total=%d%n",o.getId(),o.getEstado(),o.getTotal());}} }

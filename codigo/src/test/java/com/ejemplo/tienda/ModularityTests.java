@@ -1,0 +1,1 @@
+package com.ejemplo.tienda; import org.junit.jupiter.api.Test; import org.springframework.modulith.core.ApplicationModules; class ModularityTests { @Test void verifies(){ApplicationModules.of(TiendaApplication.class).verify();} }
