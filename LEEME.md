@@ -22,3 +22,6 @@ Volver a la rama de preparación: `git switch master` (o consultar `git branch`)
 
 ## Evidencias
 Desde codigo ejecutar `mvn -Dtest=ModularityTests test`. Para inducir una violación, agregar temporalmente dentro de OrderService un campo `private com.ejemplo.tienda.catalogo.internal.Product violacion;`, ejecutar la misma prueba y guardar la salida; restaurar con `git restore src/main/java/com/ejemplo/tienda/pedidos/internal/OrderService.java` (solo si no hay cambios propios en ese archivo). Ejecutar ambas muestras y copiar sus salidas literales. Desde raíz ejecutar `git diff --name-status hoja-1 final` y `git log --format="%h %ad %an%d %s" --date=iso`. No sustituir resultados reales por los esperados. Los integrantes deben revisar, aprobar y registrar sus propias contribuciones; consultar al profesor si acepta la reconstrucción sin carpeta original.
+
+## Interfaz opcional de exposición
+En la rama master, desde codigo ejecutar `mvn spring-boot:run` y abrir http://localhost:8080/. La página estática consume la API real. El historial visual solo incluye pedidos registrados desde la página durante la sesión; la consulta por ID accede a la base. No requiere CDN ni Docker. La interfaz está fuera de las etiquetas hoja-1 y final, y no forma parte de la medición académica. Para exponer volver a master después de ejecutar las muestras.
