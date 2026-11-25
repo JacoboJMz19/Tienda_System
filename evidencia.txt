@@ -7,3 +7,6 @@ A	codigo/src/test/java/com/ejemplo/tienda/pedidos/internal/DiscountQ1Tests.java
 
 f9169bd 2026-11-25 20:26:34 +0000 Asistente de desarrollo (HEAD -> master, tag: final) Implementar tramo Q1 y prueba de frontera
 24c5c7d 2026-11-25 20:26:33 +0000 Asistente de desarrollo (tag: hoja-1) Preparar línea base y propuesta ADR-0001
+85e41b0 2026-11-25 20:26:58 +0000 Asistente de desarrollo (HEAD -> master) Agregar documentación y evidencia parcial
+f9169bd 2026-11-25 20:26:34 +0000 Asistente de desarrollo (tag: final) Implementar tramo Q1 y prueba de frontera
+24c5c7d 2026-11-25 20:26:33 +0000 Asistente de desarrollo (tag: hoja-1) Preparar línea base y propuesta ADR-0001
