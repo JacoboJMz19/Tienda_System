@@ -1,1 +1,9 @@
-Pendiente: pegar salidas literales de pruebas, violación inducida, muestras y git diff/log. No son evidencias ejecutadas.
+EVIDENCIA PARCIAL: Maven no disponible en el entorno de generación. Faltan las cuatro salidas de ejecución.
+
+M	codigo/src/main/java/com/ejemplo/tienda/pedidos/internal/DiscountPolicy.java
+A	codigo/src/main/java/com/ejemplo/tienda/pedidos/internal/SampleQ1.java
+M	codigo/src/main/resources/application.properties
+A	codigo/src/test/java/com/ejemplo/tienda/pedidos/internal/DiscountQ1Tests.java
+
+f9169bd 2026-11-25 20:26:34 +0000 Asistente de desarrollo (HEAD -> master, tag: final) Implementar tramo Q1 y prueba de frontera
+24c5c7d 2026-11-25 20:26:33 +0000 Asistente de desarrollo (tag: hoja-1) Preparar línea base y propuesta ADR-0001
